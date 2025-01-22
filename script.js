@@ -12,7 +12,7 @@ function(){
 });
 
 document.getElementById('Reset').addEventListener('click', funtion(){
-	var blocks = document.getElementByClassName('grid-item');
+	var blocks = document.getElementsByClassName('grid-item');
 	for(let i = 0; i < blocks.length; i++){
 		blocks[i].style.backgroundColor = 'transparent';
 	}
